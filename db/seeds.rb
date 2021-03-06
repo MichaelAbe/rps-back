@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Category.create([
+    {:name => "free verse"},
+    {:name => "epic"},
+    {:name => "haiku"},
+    {:name => "narrative"},
+    {:name => "pastoral"},
+    {:name => "sonnet"},
+    {:name => "ode"},
+    {:name => "limerick"},
+    {:name => "ballad"},
+    {:name => "soliloquy"},
+    {:name => "villanelle"},
+])
+
+
+
