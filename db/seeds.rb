@@ -21,4 +21,20 @@ Category.create([
 ])
 
 
+Poem.create([
+    {title: "Poem 1", content: "This is poem 1" },
+    {title: "Poem 2", content: "This is poem 2" },
+    {title: "Poem 3", content: "This is poem 3" },
+    {title: "Poem 4", content: "This is poem 4" },
+    {title: "Poem 5", content: "This is poem 5" },
+    {title: "Poem 6", content: "This is poem 6" },
+    {title: "Poem 7", content: "This is poem 7" },
+    {title: "Poem 8", content: "This is poem 8" },
+    {title: "Poem 9", content: "This is poem 9" },
+    {title: "Poem 10", content: "This is poem 10" },
+    {title: "Poem 11", content: "This is poem 11" },
+    {title: "Poem 12", content: "This is poem 12" },
+])
+
+
 
