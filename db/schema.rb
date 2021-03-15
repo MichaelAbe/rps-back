@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_06_140942) do
+ActiveRecord::Schema.define(version: 2021_03_13_182243) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -23,6 +23,10 @@ ActiveRecord::Schema.define(version: 2021_03_06_140942) do
     t.text "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "likes", default: 0
+    t.integer "category_id", null: false
+    t.index ["category_id"], name: "index_poems_on_category_id"
   end
 
+  add_foreign_key "poems", "categories"
 end
